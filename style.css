@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.main{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+      box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #393E46;
+   
+}
+
+.display{
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 80%;
+    height: 60%;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+      box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+
+#prompt{
+    width: 65%;
+   
+    padding: 10px;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+     border: none;
+      border-radius: 5px;
+
+}
+
+body{
+     width: 100%;
+    height: 100vh;
+    background-color: #222831;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    color:#222831
+}
+
+
+button{
+    
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+    background: #32E0C4; 
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+     border-radius: 5px;
+     color: black;
+    
+}
+
+button:hover{
+    background: black;
+    color: white;
+}
+
+.inputBtn {
+
+    width: 80%;
+    height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 1100px) {
+ .main{
+    width: 50%;
+    height: 500px;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 875px) {
+
+
+ 
+p{
+    font-size: x-larger;
+    font-weight: bold;
+
+}
+
+
+.inputBtn {
+
+    width: 80%;
+    height: auto;
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#prompt{
+    width: 100%;
+   
+    padding: 10px;
+     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+     border: none;
+      border-radius: 5px;
+
+}
+
+button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.main{
+    width: 50%;
+    height: 450px;
+}
+p{
+    margin: 20px;
+}
+
+.display{
+    margin: 10px;
+}
+
+}
+
+@media only screen and (max-width: 760px) {
+    p{
+        font-size: x-large;
+        font-weight: bolder;
+    }
+
+    .display >img{
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    p{
+        font-size: medium;
+        font-weight: bolder;
+    }
+}
+
+
+@media (max-width: 875px) {
+  .display img {
+    max-width: 200px; 
+  }
+}
+
+@media (min-width: 876px) {
+  .display img {
+    max-width: 280px;  
+  }
+}
+
+@media (max-width: 571px) {
+  .display img {
+    max-width: 150px; 
+  }
+}
